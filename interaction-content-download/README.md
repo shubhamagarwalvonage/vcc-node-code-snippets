@@ -49,7 +49,7 @@ If you run this script without any parameters it will download all content found
 If you want to set your own date range you can use options `--start` (or `s`) and `--end` (or `e`) and pass dates in `ISO8601` format for example:
 
 ```
-node app.js --start 2020-05-01T00:00:00Z --end 2020-05-31T23:59:59Z
+node app.js --start 2020-05-01T00:00:00Z --end 2020-05-06T23:59:59Z
 ```
 
 will look for interactions that were created in May 2020 and download all content.
